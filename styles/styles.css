@@ -1,0 +1,282 @@
+body {
+	margin: 0;
+	background-repeat: repeat;
+	&.hearts {background-image: url(../images/background-2.avif);}
+	&.square-hearts {background-image: url(../images/background.avif);}
+}
+
+.page {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	
+	.side-menu {
+		width: 200px;
+		position: fixed;
+		background-color: white;
+		padding: 20px;
+		height: 100%;
+		border-right: 5px solid red;
+		
+		p.menu-title {font-weight: bold;}
+		
+		div {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			margin-bottom: 30px;
+			
+			.btn {
+				padding: 15px 20px;
+				border-radius: 12px;
+				background-color: white;
+				border: 2px solid red;
+				cursor: pointer;
+				text-align: center;
+				
+				&:hover, &.selected {
+					background-color: red;
+					color: white;
+				}
+			}
+			
+			
+			&.sort-btns-container {
+				display: auto;
+				p {
+					margin: 0;
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					padding-bottom: 5px;
+					border-bottom: 1px solid red;
+					&:not(.menu-title) {
+						font-size: 0.9em;
+					}
+					.btn {
+						color: red;
+						border-radius: 0;
+						padding: 4px;
+						&:hover, &.selected {
+							background-color: red;
+							color: white;
+						}
+						&.up { border-right: 1px solid red;}
+						&.down { border-left: 1px solid red;}
+					}
+				}				
+			}
+			&.theme-btns-container .btn {max-width: 51px;}
+			&.filter-btns-container {
+				/*Add when heights added*/
+				/*overflow-y: auto;*/
+				.filters-group {
+					margin-bottom: 10px;
+					p {margin: 0; width:100%}
+					.filters-container {
+						display: flex;
+						font-size: 0.8em;
+						margin-bottom: 0;
+						.btn {
+							border: none;
+							border-radius: 0;
+							border-bottom: 1px solid red;
+							padding: 5px 6px;
+							padding-right: 2px;
+							.amount {
+								background-color: red;
+								border-radius: 12px;
+								color: white;
+								padding: 2px;
+								margin-left: 2px;
+							}
+							&:hover .amount, &.selected .amount {background-color: white; color: red;}
+						}
+					}
+				}
+			}
+			.size-btns-container {
+				.btn {padding: 14px 9px; border-radius: 0; border-left: 1px solid red}
+				.btn:first-child {
+					border-left: 2px solid red;
+					border-top-left-radius: 12px;
+				}
+				.btn:last-child {border-bottom-right-radius: 12px;}
+				width: calc(100% - 60px);
+                gap: 0;
+				margin-bottom: 0;
+			}
+			#waifus-count {
+				margin-bottom: 0;
+				font-weight: bold;
+				color: white;
+				align-items: center;
+				justify-content: center;
+				background-image: url('../images/heart.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+				width: 50px;
+				height: 50px;
+				div {
+					display: inline-block;
+					margin-bottom: 0;
+				}
+			}
+		}
+		
+	}
+	
+	.content {
+		margin-left: 240px;
+		padding: 20px;
+		
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			gap: 20px;
+			
+			.waifu {
+				/*border-radius: 12px;*/
+				width: 350px;
+				
+				.image {
+					position: relative;
+					min-height: 350px;
+					background: #fff;
+					border-top-left-radius: 12px;
+					border-top-right-radius: 12px;
+					img {
+						height: 350px;
+						width: 100%;
+						display: block;
+						-webkit-transform-style: preserve-3d;
+						background-size: cover;
+						object-fit: cover;
+						border-top-left-radius: 12px;
+						border-top-right-radius: 12px;
+						border: 5px ridge red;
+						border-bottom: 0;
+						box-sizing: border-box;
+					}
+				}
+				.info {
+					background: #fff;
+					border: 5px ridge red;
+					border-bottom-left-radius: 12px;
+					border-bottom-right-radius: 12px;
+					border-top: 0;
+					display: flex;
+					flex-direction: column;
+					padding: 10px 15px 15px;
+					
+					p {
+						margin: 2px;
+						.name {
+							font-weight: bold; 
+						}
+						&.show {
+							font-style: italic;
+						}
+					}
+					
+					.other-images {
+						display: flex;
+						flex-wrap: wrap;
+						gap: 5px;
+						margin-bottom: 10px;
+						
+						.alternative-image {
+							cursor: pointer;
+							width: 50px;
+							position: relative;
+							min-height: 50px;
+							
+							img {
+								height: 50px;
+								width: 100%;
+								display: block;
+								-webkit-transform-style: preserve-3d;
+								background-size: cover;
+								object-fit: cover;
+							}
+						}
+					}
+				
+				}
+				
+				&.hidden {display: none}
+			}
+			
+			&.huge {
+				.waifu {
+					width: 450px;
+					.image {
+						min-height: 450px;
+						img {height: 450px;}
+					}
+					.info .other-images .alternative-image {
+						width: 60px;
+						min-height: 60px;
+						img {height: 60px;}
+					}
+				}
+			}
+			&.big {
+				gap: 15px;
+				.waifu {
+					width: 350px;
+					.image {
+						min-height: 350px;
+						img {height: 350px;}
+					}
+					.info .other-images .alternative-image {
+						width: 50px;
+						min-height: 50px;
+						img {height: 50px;}
+					}
+				}
+			}
+			&.medium {
+				gap: 10px;
+				font-size: 0.9em;
+				.waifu {
+					width: 250px;
+					.image {
+						min-height: 250px;
+						img {height: 250px;}
+					}
+					.info .other-images .alternative-image {
+						width: 48px;
+						min-height: 48px;
+						img {height: 48px;}
+					}
+				}
+			}
+			&.small {
+				gap: 5px;
+				font-size: 0.8em;
+				.waifu {
+					width: 155px;
+					.image {
+						min-height: 155px;
+						img {
+							height: 155px;
+							border: 3px ridge red;
+						}
+					}
+					.info {
+						border: 3px ridge red;
+						border-top: 0;
+						.other-images .alternative-image {
+							width: 24px;
+							min-height: 24px;
+							img {height: 24px;}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.prototype {display: none}

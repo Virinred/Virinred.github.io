@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/styles.css">
+	<title>Waifus</title>
+</head>
+
+<body class="hearts">
+	<div class="page">
+		<div class="side-menu">
+			<!--
+			<p class="menu-title">Tema:</p>
+			<div class="theme-btns-container">
+				<span class="btn theme" data-theme="">N</span>
+				<span class="btn theme selected" data-theme="hearts">H</span>
+				<span class="btn theme" data-theme="square-hearts">SH</span>
+			</div>
+			-->
+			<!--<p class="menu-title">Tamaño:</p>-->
+			<div>
+				<div class="size-btns-container">
+					<span class="btn size" data-size="small">S</span>
+					<span class="btn size selected" data-size="medium">M</span>
+					<span class="btn size" data-size="big">L</span>
+					<span class="btn size" data-size="huge">H</span>
+				</div>
+				<div id="waifus-count"></div>
+			</div>
+			<p class="menu-title">Ordenar por:</p>
+			<div class="sort-btns-container">
+				<p><span>Nombre</span><span><span class="btn sort up selected" data-by="name">▲</span><span class="btn sort down" data-by="name-down">▼</span></span></p>
+				<p><span>Edad</span><span><span class="btn sort up" data-by="age">▲</span><span class="btn sort down" data-by="age-down">▼</span></span></p>
+				<p><span>Show / Movie / Cómic</span><span><span class="btn sort up" data-by="show">▲</span><span class="btn sort down" data-by="show-down">▼</span></span></p>
+				<!--
+				<span class="btn sort" data-by="name"><img height="25" width="25" src="images/icons/name.png"></span>
+				<span class="btn sort" data-by="age"><img height="25" width="25" src="images/icons/age.png"></span>
+				<span class="btn sort" data-by="show"><img height="25" width="25" src="images/icons/show.png"></span>
+				-->
+			</div>
+			<p class="menu-title">Filtros:</p>
+			<div class="filter-btns-container"></div>
+		</div>
+		<div class="content">
+			<div id="waifus-container" class="container medium"></div>
+		</div>
+	</div>
+	
+	<div class="waifu prototype">
+		<div class="image">
+			<img class="main" src="images/heart.jpg">
+		</div>
+		<div class="info">
+			<div class="other-images">
+				
+			</div>
+			<p><span class="name">Waifu</span> <span class="age"></span></p>
+			<p class="show">Show</p>
+		</div>
+	</div>
+	<div class="alternative-image prototype">
+		<img src="">
+	</div>	
+	<div class="filters-group prototype"><p class="group-name"></p><div class="filters-container"></div></div>
+	<span class="btn filter prototype"><span class="filter-name"></span><span class="amount"></span></span>
+	<input id="active-filters" type="hidden" value="">
+</body>
+
+<script type='text/javascript' src='js/index.js'></script>
+
+</html>
