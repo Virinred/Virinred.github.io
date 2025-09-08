@@ -593,6 +593,15 @@ const WAIFUS = [
 		"alternative_images": ["susan-2.jpg", "susan-3.jpg", "susan-4.jpg"],
 		"filters": ["Película-media", "azul-eyes", "blanco-hair"]
 	},
+	{
+		"id": 64,
+		"name": "Aki Mizuguchi",
+                "age": "17",
+		"show": "Whisper me a love song",
+		"main_image": "aki.jpg",
+		"alternative_images": ["aki-2.jpg", "aki-3.jpg", "aki-4.jpg"],
+		"filters": ["verdes-eyes", "rubio-hair", "Cómic-media", "Serie-media"]
+	},
 
 ];
 
