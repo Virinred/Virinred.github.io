@@ -224,10 +224,10 @@ body {
 			&.big {
 				gap: 15px;
 				.waifu {
-					width: 350px;
+					width: 300px;
 					.image {
-						min-height: 350px;
-						img {height: 350px;}
+						min-height: 300px;
+						img {height: 300px;}
 					}
 					.info .other-images .alternative-image {
 						width: 50px;
@@ -240,10 +240,10 @@ body {
 				gap: 10px;
 				font-size: 0.9em;
 				.waifu {
-					width: 250px;
+					width: 200px;
 					.image {
-						min-height: 250px;
-						img {height: 250px;}
+						min-height: 200px;
+						img {height: 200px;}
 					}
 					.info .other-images .alternative-image {
 						width: 48px;
