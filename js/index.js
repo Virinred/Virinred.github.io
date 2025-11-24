@@ -650,6 +650,15 @@ const WAIFUS = [
 		"alternative_images": ["barb-2.jpg", "barb-3.jpg"],
 		"filters": ["oscuros-eyes", "oscuro-hair", "Pokémon", "Videojuego-media"]
 	},
+	 {
+		"id": 70,
+		"name": "Chikane Kôzuki",
+		"age": "18",
+		"show": "Himegami no Miko",
+		"main_image": "chikane2.jpg",
+		"alternative_images": ["chikane2-2.jpg", "chikane2-3.jpg", "chikane2-4.jpg", "chikane2-5.jpg"],
+		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
+	},
 ];
 
 const IMAGES_PATH = 'images/';
