@@ -445,7 +445,7 @@ const WAIFUS = [
 	{
 		"id": 48,
 		"name": "Koala",
-                "age": "23",
+        "age": "23",
 		"show": "One Piece",
 		"main_image": "koala.jpg",
 		"alternative_images": ["koala-2.jpg", "koala-3.jpg", "koala-4.jpg"],
@@ -454,7 +454,7 @@ const WAIFUS = [
 	{
 		"id": 49,
 		"name": "Cindry Victoria",
-                "age": "24 [fallecida]",
+        "age": "24 [fallecida]",
 		"show": "One Piece",
 		"main_image": "cindry.jpg",
 		"alternative_images": ["cindry-2.jpg", "cindry-3.jpg", "cindry-4.jpg"],
@@ -463,7 +463,7 @@ const WAIFUS = [
 	{
 		"id": 50,
 		"name": "Sun Jing",
-                "age": "16",
+        "age": "16",
 		"show": "Tamen De Gushi",
 		"main_image": "sunjing.jpg",
 		"alternative_images": ["sunjing-2.jpg", "sunjing-3.jpg", "sunjing-4.jpg"],
@@ -492,7 +492,7 @@ const WAIFUS = [
         {
 		"id": 53,
 		"name": "Korra",
-                "age": "21",
+        "age": "21",
 		"show": "Avatar: La leyenda de Korra",
 		"main_image": "korra.jpg",
 		"alternative_images": ["korra-2.jpg", "korra-3.jpg", "korra-4.jpg", "korra-5.jpg"],
@@ -501,7 +501,7 @@ const WAIFUS = [
         {
 		"id": 54,
 		"name": "Kimberly Ann Possible",
-                "age": "17",
+        "age": "17",
 		"show": "Kim Possible",
 		"main_image": "kim.jpg",
 		"alternative_images": ["kim-2.jpg", "kim-3.jpg"],
@@ -510,7 +510,7 @@ const WAIFUS = [
         {
 		"id": 55,
 		"name": "Shego",
-                "age": "30",
+        "age": "30",
 		"show": "Kim Possible",
 		"main_image": "shego.jpg",
 		"alternative_images": ["shego-2.jpg", "shego-3.jpg", "shego-4.jpg"],
@@ -519,7 +519,7 @@ const WAIFUS = [
         {
 		"id": 56,
 		"name": "Astrid Hofferson",
-                "age": "31",
+        "age": "31",
 		"show": "Cómo entrenar a tu dragón",
 		"main_image": "astrid.jpg",
 		"alternative_images": ["astrid-2.jpg", "astrid-3.jpg", "astrid-4.jpg"],
@@ -528,7 +528,7 @@ const WAIFUS = [
        {
 		"id": 57,
 		"name": "Ripley (Provisional)",
-                "age": "26",
+        "age": "26",
                 "age_text": "80, edad gigante",
 		"show": "One Piece",
 		"main_image": "ripley.jpg",
@@ -538,7 +538,7 @@ const WAIFUS = [
       {
 		"id": 58,
 		"name": "Nani Pelekai",
-                "age": "19",
+        "age": "19",
 		"show": "Lilo & Stitch",
 		"main_image": "nani.jpg",
 		"alternative_images": ["nani-2.jpg", "nani-3.jpg", "nani-4.jpg"],
@@ -547,7 +547,7 @@ const WAIFUS = [
       {
 		"id": 59,
 		"name": "Elinor",
-                "age": "41",
+        "age": "41",
                 "age_text": "40s",
 		"show": "Brave",
 		"main_image": "elinor.jpg",
@@ -557,7 +557,7 @@ const WAIFUS = [
       {
 		"id": 60,
 		"name": "Yin",
-                "age": "36",
+        "age": "36",
                 "age_text": "¿30s?",
 		"show": "Ne Zha",
 		"main_image": "yinshi.jpg",
@@ -567,7 +567,7 @@ const WAIFUS = [
       {
 		"id": 61,
 		"name": "Cass Hamada",
-                "age": "33",
+        "age": "33",
 		"show": "Big Hero 6",
 		"main_image": "cass.jpg",
 		"alternative_images": ["cass-2.jpg"],
@@ -576,7 +576,7 @@ const WAIFUS = [
       {
 		"id": 62,
 		"name": "Honey Lemon / Aiko Miyazaki",
-                "age": "22",
+        "age": "22",
                 "age_text": "20s",
 		"show": "Big Hero 6",
 		"main_image": "honeylemon.jpg",
@@ -586,7 +586,7 @@ const WAIFUS = [
       {
 		"id": 63,
 		"name": "Susan Murphy / Genórmica",
-                "age": "27",
+        "age": "27",
                 "age_text": "Late 20s",
 		"show": "Monstruos contra Alienígenas",
 		"main_image": "susan.jpg",
@@ -596,13 +596,60 @@ const WAIFUS = [
 	{
 		"id": 64,
 		"name": "Aki Mizuguchi",
-                "age": "17",
+        "age": "17",
 		"show": "Whisper me a love song",
 		"main_image": "aki.jpg",
 		"alternative_images": ["aki-2.jpg", "aki-3.jpg", "aki-4.jpg"],
 		"filters": ["verdes-eyes", "rubio-hair", "Cómic-media", "Serie-media"]
 	},
-
+	{
+		"id": 65,
+		"name": "Vagatha / Vaggi",
+        "age": "20",
+		"show": "Hazbien Hotel",
+		"main_image": "vaggi.jpg",
+		"alternative_images": ["vaggi-2.jpg", "vaggi-3.jpg", "vaggi-4.jpg", "vaggi-5.jpg"],
+		"filters": ["rojos-eyes", "amarillos-eyes", "blanco-hair", "Serie-media"]
+	},
+	{
+		"id": 66,
+		"name": "Charlotte Morningstar",
+        "age": "21",
+        "age_text": "20s",
+		"show": "Hazbien Hotel",
+		"main_image": "charlie.jpg",
+		"alternative_images": ["charlie-2.jpg", "charlie-3.jpg", "charlie-4.jpg", "charlie-5.jpg"],
+		"filters": ["amarillos-eyes", "rojos-eyes", "rubio-hair", "Serie-media"]
+	},
+	{
+		"id": 67,
+		"name": "Mai Ôzuka",
+        "age": "16",
+		"show": "There's no freaking way I'll be your lover!! Unless...",
+		"main_image": "maiouzuka.jpg",
+		"alternative_images": ["maiouzuka-2.jpg", "maiouzuka-3.jpg", "maiouzuka-4.jpg", "maiouzuka-5.jpg"],
+		"filters": ["amarillos-eyes", "rojos-eyes", "rubio-hair", "Serie-media"]
+	},
+	{
+		"id": 68,
+		"name": "Muni / Taunie",
+                "age": "13",
+		"age_text": "teen",
+		"show": "Pokémon",
+		"main_image": "muni.jpg",
+		"alternative_images": ["muni-2.jpg", "muni-3.jpg"],
+		"filters": ["azul-eyes", "rubio-hair", "rosa-hair", "Pokémon", "Videojuego-media"]
+	},
+	{
+		"id": 69,
+		"name": "Bárbara / Lida",
+                "age": "13",
+		"age_text": "teen",
+		"show": "Pokémon",
+		"main_image": "barb.jpg",
+		"alternative_images": ["barb-2.jpg", "barb-3.jpg"],
+		"filters": ["oscuros-eyes", "oscuro-hair", "Pokémon", "Videojuego-media"]
+	},
 ];
 
 const IMAGES_PATH = 'images/';
