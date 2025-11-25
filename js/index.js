@@ -656,7 +656,7 @@ const WAIFUS = [
 		"age": "18",
 		"show": "Himegami no Miko",
 		"main_image": "chikane2.jpg",
-		"alternative_images": ["chikane3-2.jpg", "chikane3-3.jpg", "chikane3-4.jpg", "chikane3-5.jpg"],
+		"alternative_images": ["chikane2-2.jpg", "chikane2-3.jpg", "chikane2-4.jpg", "chikane2-5.jpg"],
 		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
 	},
 ];
