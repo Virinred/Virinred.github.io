@@ -606,7 +606,7 @@ const WAIFUS = [
 		"id": 65,
 		"name": "Vagatha / Vaggi",
         "age": "20",
-		"show": "Hazbien Hotel",
+		"show": "Hazbin Hotel",
 		"main_image": "vaggi.jpg",
 		"alternative_images": ["vaggi-2.jpg", "vaggi-3.jpg", "vaggi-4.jpg", "vaggi-5.jpg"],
 		"filters": ["rojos-eyes", "amarillos-eyes", "blanco-hair", "Serie-media"]
@@ -616,7 +616,7 @@ const WAIFUS = [
 		"name": "Charlotte Morningstar",
         "age": "21",
         "age_text": "20s",
-		"show": "Hazbien Hotel",
+		"show": "Hazbin Hotel",
 		"main_image": "charlie.jpg",
 		"alternative_images": ["charlie-2.jpg", "charlie-3.jpg", "charlie-4.jpg", "charlie-5.jpg"],
 		"filters": ["amarillos-eyes", "rojos-eyes", "rubio-hair", "Serie-media"]
