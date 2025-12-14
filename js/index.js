@@ -604,7 +604,7 @@ const WAIFUS = [
 	},
 	{
 		"id": 65,
-		"name": "Vagatha / Vaggi",
+		"name": "Vaggi",
         "age": "20",
 		"show": "Hazbin Hotel",
 		"main_image": "vaggi.jpg",
