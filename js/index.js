@@ -659,6 +659,35 @@ const WAIFUS = [
 		"alternative_images": ["chikane2-2.jpg", "chikane2-3.jpg", "chikane2-4.jpg", "chikane2-5.jpg"],
 		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
 	},
+	{
+		"id": 71,
+		"name": "Amaya",
+                "age": "40",
+		"age_text": "adult",
+		"show": "wish",
+		"main_image": "queenamaya.jpg",
+		"alternative_images": ["queenamaya-2.jpg", "queenamaya-3.jpg", "queenamaya-4.jpg"],
+		"filters": ["marrones-eyes", "marrón-hair", "Película-media"]
+	},
+	{
+		"id": 72,
+		"name": "Isabella Yamamoto",
+        "age": "28",
+		"show": "Paradise Kiss",
+		"main_image": "isabella.jpg",
+		"alternative_images": ["isabella-2.jpg", "isabella-3.jpg"],
+		"filters": ["grises-eyes", "violeta-hair", "Serie-media", "Cómic-media"]
+	},
+	{
+		"id": 73,
+		"name": "Janai",
+                "age": "30",
+		"age_text": "adult",
+		"show": "El príncipe dragón",
+		"main_image": "janai.jpg",
+		"alternative_images": ["janai-2.jpg", "janai-3.jpg", "janai-4.jpg", "janai-5.jpg"],
+		"filters": ["marrones-eyes", "pelirrojo-hair", "Serie-media"]
+	},
 ];
 
 const IMAGES_PATH = 'images/';
