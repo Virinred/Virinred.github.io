@@ -307,7 +307,7 @@ const WAIFUS = [
 	{
 		"id": 33,
 		"name": "Pyrrha Nikos",
-                "age": "18",
+                "age": "18 [fallecida]",
 		"show": "RWBY",
 		"main_image": "pyrrha.jpg",
 		"alternative_images": ["pyrrha-2.jpg", "pyrrha-3.jpg", "pyrrha-4.jpg"],
