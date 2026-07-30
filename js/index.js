@@ -17,7 +17,7 @@ const WAIFUS = [
 		"show": "Arcane",
 		"main_image": "caitlyn.jpg",
 		"alternative_images": ["caitlyn-2.jpg", "caitlyn-3.jpg", "caitlyn-4.jpg", "caitlyn-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Serie-media", "Videojuego-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Serie-media", "Videojuego-media"]
 	},
 	{
 		"id": 2,
@@ -26,7 +26,7 @@ const WAIFUS = [
 		"show": "Frozen",
 		"main_image": "elsa.jpg",
 		"alternative_images": ["elsa-2.jpg", "elsa-3.jpg", "elsa-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Película-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Película-media"]
 	},
 	{
 		"id": 3,
@@ -35,7 +35,7 @@ const WAIFUS = [
 		"show": "Shera y las princesas del poder",
 		"main_image": "adora.jpg",
 		"alternative_images": ["adora-2.jpg", "adora-3.jpg", "adora-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Serie-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Serie-media"]
 	},
 	{
 		"id": 4,
@@ -45,7 +45,7 @@ const WAIFUS = [
 		"show": "Not so Shoujo Love Story",
 		"main_image": "hanna.jpg",
 		"alternative_images": ["hanna-2.jpg", "hanna-3.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Cómic-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Cómic-media"]
 	},
 	{
 		"id": 5,
@@ -54,7 +54,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "hancock.jpg",
 		"alternative_images": ["hancock-2.jpg", "hancock-5.jpg", "hancock-6.jpg", "hancock-7.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media", "Película-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media", "Película-media"]
 	},
 	{
 		"id": 6,
@@ -63,7 +63,7 @@ const WAIFUS = [
 		"show": "What does the Fox Say?",
 		"main_image": "sungi.jpg",
 		"alternative_images": ["sungi-2.jpg", "sungi-3.jpg", "sungi-4.jpg"],
-		"filters": ["dorado-eyes", "rubio-hair", "Cómic-media"]
+		"filters": ["dorados-eyes", "rubio-hair", "Cómic-media"]
 	},
         {
 		"id": 7,
@@ -72,7 +72,7 @@ const WAIFUS = [
 		"show": "Avatar: La leyenda de Korra",
 		"main_image": "asami.png",
 		"alternative_images": ["asami-2.jpg", "asami-3.jpg", "asami-4.png", "asami-5.jpg"],
-		"filters": ["verdes-eyes", "oscuro-hair", "La-leyenda-de-Korra", "Serie-media", "Cómic-media"]
+		"filters": ["verdes-eyes", "oscuro-hair", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 8,
@@ -81,7 +81,7 @@ const WAIFUS = [
 		"show": "Dragon Ball Z / Daima / Super / GT",
 		"main_image": "a18.jpg",
 		"alternative_images": ["a18-2.jpg", "a18-3.jpg", "a18-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Serie-media", "Cómic-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 9,
@@ -99,7 +99,7 @@ const WAIFUS = [
 		"show": "RWBY",
 		"main_image": "blake.jpg",
 		"alternative_images": ["blake-2.jpg", "blake-3.jpg", "blake-4.jpg"],
-		"filters": ["dorado-eyes", "oscuro-hair", "RWBY", "Serie-media", "Videojuego-media"]
+		"filters": ["dorados-eyes", "oscuro-hair", "RWBY", "Serie-media", "Videojuego-media"]
 	},
         {
 		"id": 11,
@@ -108,7 +108,7 @@ const WAIFUS = [
 		"show": "Kannazuki no Miko",
 		"main_image": "chikane.jpg",
 		"alternative_images": ["chikane-2.jpg", "chikane-3.jpg", "chikane-4.jpg", "chikane-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media", "Serie-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Cómic-media", "Serie-media"]
 	},
         {
 		"id": 12,
@@ -118,7 +118,7 @@ const WAIFUS = [
 		"show": "DC Comics",
 		"main_image": "diana.jpg",
 		"alternative_images": ["diana-2.jpg", "diana-3.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "superheroína", "Cómic-media", "Película-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "superheroína", "Cómic-media", "Película-media"]
 	},
         {
 		"id": 13,
@@ -137,7 +137,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "gerd.jpg",
 		"alternative_images": ["gerd-2.jpg", "gerd-3.jpg", "gerd-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "One-Piece", "Serie-media", "Cómic-media"]
+		"filters": ["azules-eyes", "rubio-hair", "One-Piece", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 15,
@@ -155,7 +155,7 @@ const WAIFUS = [
 		"show": "Tarzán (Disney)",
 		"main_image": "jane.jpg",
 		"alternative_images": ["jane-2.jpg", "jane-3.jpg", "jane-4.jpg"],
-		"filters": ["azul-eyes", "marrón-hair", "Película-media"]
+		"filters": ["azules-eyes", "marrón-hair", "Película-media"]
 	},
         {
 		"id": 17,
@@ -165,7 +165,7 @@ const WAIFUS = [
 		"show": "Shattered Angels",
 		"main_image": "kaon.jpg",
 		"alternative_images": ["kaon-2.jpg", "kaon-3.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Serie-media", "Cómic-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 18,
@@ -174,7 +174,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "kiku.jpg",
 		"alternative_images": ["kiku-2.jpg", "kiku-3.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media"]
 	},
         {
 		"id": 19,
@@ -183,7 +183,7 @@ const WAIFUS = [
 		"show": "Las aventuras de Ladybug",
 		"main_image": "ladybug.jpg",
 		"alternative_images": ["ladybug-2.jpg", "ladybug-3.jpg", "ladybug-4.jpg", "ladybug-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "superheroína", "Serie-media", "Película-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "superheroína", "Serie-media", "Película-media"]
 	},
         {
 		"id": 20,
@@ -210,7 +210,7 @@ const WAIFUS = [
 		"show": "Yu-Gi-Oh!",
 		"main_image": "mai.jpg",
 		"alternative_images": ["mai-2.jpg", "mai-3.jpg", "mai-4.jpg"],
-		"filters": ["violeta-eyes", "rubio-hair", "Serie-media", "Cómic-media"]
+		"filters": ["violetas-eyes", "rubio-hair", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 23,
@@ -220,7 +220,7 @@ const WAIFUS = [
 		"show": "Hotel Transylvania",
 		"main_image": "mavis.jpg",
 		"alternative_images": ["mavis-2.jpg", "mavis-3.jpg", "mavis-4.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Película-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Película-media"]
 	},
         {
 		"id": 24,
@@ -229,7 +229,7 @@ const WAIFUS = [
 		"show": "Hércules (Disney)",
 		"main_image": "meg.jpg",
 		"alternative_images": ["meg-2.jpg", "meg-3.jpg", "meg-4.jpg"],
-		"filters": ["violeta-eyes", "pelirrojo-hair", "Película-media"]
+		"filters": ["violetas-eyes", "pelirrojo-hair", "Película-media"]
 	},
         {
 		"id": 25,
@@ -248,7 +248,7 @@ const WAIFUS = [
 		"show": "Pokémon",
 		"main_image": "mencia.jpg",
 		"alternative_images": ["mencia-2.jpg", "mencia-3.jpg"],
-		"filters": ["dorado-eyes", "oscuro-hair", "Pokémon", "Película-media", "Videojuego-media"]
+		"filters": ["dorados-eyes", "oscuro-hair", "Pokémon", "Película-media", "Videojuego-media"]
 	},
 	{
 		"id": 27,
@@ -257,7 +257,7 @@ const WAIFUS = [
 		"show": "Sailor Moon S / SuperS / Stars",
 		"main_image": "michiru.jpg",
 		"alternative_images": ["michiru-2.jpg", "michiru-3.jpg", "michiru-4.jpg"],
-		"filters": ["azul-eyes", "teal-hair", "Serie-media", "Cómic-media"]
+		"filters": ["azules-eyes", "teal-hair", "Serie-media", "Cómic-media"]
 	},
 	{
 		"id": 28,
@@ -275,7 +275,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "robin.jpg",
 		"alternative_images": ["robin-2.jpg", "robin-3.jpg", "robin-4.jpg", "robin-5.jpg", "robin-6.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media", "Película-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "One-Piece", "Cómic-media", "Serie-media", "Película-media"]
 	},
 	{
 		"id": 30,
@@ -302,7 +302,7 @@ const WAIFUS = [
 		"show": "La princesa cisne",
 		"main_image": "odette.jpg",
 		"alternative_images": ["odette-2.jpg", "odette-3.jpg", "odette-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Película-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Película-media"]
 	},
 	{
 		"id": 33,
@@ -320,7 +320,7 @@ const WAIFUS = [
 		"show": "Tamen De Gushi",
 		"main_image": "qiutong.jpg",
 		"alternative_images": ["qiutong-2.jpg", "qiutong-3.jpg", "qiutong-4.jpg"],
-		"filters": ["dorado-eyes", "rubio-hair", "Cómic-media"]
+		"filters": ["dorados-eyes", "rubio-hair", "Cómic-media"]
 	},
 	{
 		"id": 35,
@@ -338,7 +338,7 @@ const WAIFUS = [
 		"show": "Maria nos mira / Maria-sama ga Miteru",
 		"main_image": "sachiko.jpg",
 		"alternative_images": ["sachiko-2.jpg", "sachiko-3.jpg", "sachiko-4.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Serie-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Serie-media"]
 	},
 	{
 		"id": 37,
@@ -357,7 +357,7 @@ const WAIFUS = [
 		"show": "Strawberry Panic!",
 		"main_image": "shizuma.jpg",
 		"alternative_images": ["shizuma-2.jpg", "shizuma-3.jpg", "shizuma-4.jpg"],
-		"filters": ["dorado-eyes", "gris-hair", "Cómic-media", "Serie-media"]
+		"filters": ["dorados-eyes", "claro-hair", "Cómic-media", "Serie-media"]
 	},
 	{
 		"id": 39,
@@ -366,7 +366,7 @@ const WAIFUS = [
 		"show": "Kase y las campanillas azules / Asagao to Kase-san",
 		"main_image": "kase.jpg",
 		"alternative_images": ["kase-2.jpg", "kase-3.jpg", "kase-4.jpg", "kase-5.jpg"],
-		"filters": ["dorado-eyes", "marrón-hair", "Cómic-media", "Película-media"]
+		"filters": ["dorados-eyes", "marrón-hair", "Cómic-media", "Película-media"]
 	},
 	{
 		"id": 40,
@@ -375,7 +375,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "reiju.jpg",
 		"alternative_images": ["reiju-2.jpg", "reiju-3.jpg"],
-		"filters": ["azul-eyes", "rosa-hair", "One-Piece", "Cómic-media", "Serie-media"]
+		"filters": ["azules-eyes", "rosa-hair", "One-Piece", "Cómic-media", "Serie-media"]
 	},
 	{
 		"id": 41,
@@ -384,7 +384,7 @@ const WAIFUS = [
 		"show": "RWBY",
 		"main_image": "weiss.jpg",
 		"alternative_images": ["weiss-2.jpg", "weiss-3.jpg"],
-		"filters": ["azul-eyes", "blanco-hair", "RWBY", "Serie-media", "Videojuego-media"]
+		"filters": ["azules-eyes", "claro-hair", "RWBY", "Serie-media", "Videojuego-media"]
 	},
 	{
 		"id": 42,
@@ -394,7 +394,7 @@ const WAIFUS = [
 		"show": "RWBY",
 		"main_image": "winter.jpg",
 		"alternative_images": ["winter-2.jpg", "winter-3.jpg"],
-		"filters": ["azul-eyes", "blanco-hair", "RWBY", "Serie-media"]
+		"filters": ["azules-eyes", "claro-hair", "RWBY", "Serie-media"]
 	},
 	{
 		"id": 43,
@@ -403,7 +403,7 @@ const WAIFUS = [
 		"show": "RWBY",
 		"main_image": "yang.jpg",
 		"alternative_images": ["yang-2.jpg", "yang-3.jpg", "yang-4.jpg", "yang-5.jpg"],
-		"filters": ["violeta-eyes", "rubio-hair", "RWBY", "Serie-media", "Videojuego-media"]
+		"filters": ["violetas-eyes", "rubio-hair", "RWBY", "Serie-media", "Videojuego-media"]
 	},
 	{
 		"id": 44,
@@ -440,7 +440,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "hiyori.jpg",
 		"alternative_images": ["hiyori-2.jpg", "hiyori-3.jpg", "hiyori-4.jpg", "hiyori-5.jpg"],
-		"filters": ["azul-eyes", "teal-hair", "Cómic-media", "Serie-media", "One-Piece"]
+		"filters": ["azules-eyes", "teal-hair", "Cómic-media", "Serie-media", "One-Piece"]
 	},
 	{
 		"id": 48,
@@ -449,7 +449,7 @@ const WAIFUS = [
 		"show": "One Piece",
 		"main_image": "koala.jpg",
 		"alternative_images": ["koala-2.jpg", "koala-3.jpg", "koala-4.jpg"],
-		"filters": ["azul-eyes", "pelirrojo-hair", "Cómic-media", "Serie-media", "One-Piece"]
+		"filters": ["azules-eyes", "pelirrojo-hair", "Cómic-media", "Serie-media", "One-Piece"]
 	},
 	{
 		"id": 49,
@@ -477,7 +477,7 @@ const WAIFUS = [
 		"show": "DC Comics",
 		"main_image": "supergirl.jpg",
 		"alternative_images": ["supergirl-2.jpg", "supergirl-3.jpg", "supergirl-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "superheroína", "Cómic-media", "Serie-media"]
+		"filters": ["azules-eyes", "rubio-hair", "superheroína", "Cómic-media", "Serie-media"]
 	},
         {
 		"id": 52,
@@ -487,7 +487,7 @@ const WAIFUS = [
 		"show": "Marvel Comics",
 		"main_image": "marvel.jpg",
 		"alternative_images": ["marvel-2.jpg", "marvel-3.jpg", "marvel-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "superheroína", "Cómic-media", "Película-media"]
+		"filters": ["azules-eyes", "rubio-hair", "superheroína", "Cómic-media", "Película-media"]
 	},
         {
 		"id": 53,
@@ -496,7 +496,7 @@ const WAIFUS = [
 		"show": "Avatar: La leyenda de Korra",
 		"main_image": "korra.jpg",
 		"alternative_images": ["korra-2.jpg", "korra-3.jpg", "korra-4.jpg", "korra-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "La-leyenda-de-Korra", "Serie-media", "Cómic-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Serie-media", "Cómic-media"]
 	},
         {
 		"id": 54,
@@ -523,7 +523,7 @@ const WAIFUS = [
 		"show": "Cómo entrenar a tu dragón",
 		"main_image": "astrid.jpg",
 		"alternative_images": ["astrid-2.jpg", "astrid-3.jpg", "astrid-4.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "Película-media"]
+		"filters": ["azules-eyes", "rubio-hair", "Película-media"]
 	},
        {
 		"id": 57,
@@ -591,7 +591,7 @@ const WAIFUS = [
 		"show": "Monstruos contra Alienígenas",
 		"main_image": "susan.jpg",
 		"alternative_images": ["susan-2.jpg", "susan-3.jpg", "susan-4.jpg"],
-		"filters": ["Película-media", "azul-eyes", "blanco-hair"]
+		"filters": ["Película-media", "azules-eyes", "claro-hair"]
 	},
 	{
 		"id": 64,
@@ -609,7 +609,7 @@ const WAIFUS = [
 		"show": "Hazbin Hotel",
 		"main_image": "vaggi.jpg",
 		"alternative_images": ["vaggi-2.jpg", "vaggi-3.jpg", "vaggi-4.jpg", "vaggi-5.jpg"],
-		"filters": ["rojos-eyes", "amarillos-eyes", "blanco-hair", "Serie-media"]
+		"filters": ["rojos-eyes", "amarillos-eyes", "claro-hair", "Serie-media"]
 	},
 	{
 		"id": 66,
@@ -638,7 +638,7 @@ const WAIFUS = [
 		"show": "Pokémon",
 		"main_image": "muni.jpg",
 		"alternative_images": ["muni-2.jpg", "muni-3.jpg"],
-		"filters": ["azul-eyes", "rubio-hair", "rosa-hair", "Pokémon", "Videojuego-media"]
+		"filters": ["azules-eyes", "rubio-hair", "rosa-hair", "Pokémon", "Videojuego-media"]
 	},
 	{
 		"id": 69,
@@ -657,14 +657,14 @@ const WAIFUS = [
 		"show": "Himegami no Miko",
 		"main_image": "chikane2.jpg",
 		"alternative_images": ["chikane2-2.jpg", "chikane2-3.jpg", "chikane2-4.jpg", "chikane2-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Cómic-media"]
 	},
 	{
 		"id": 71,
 		"name": "Amaya",
                 "age": "40",
 		"age_text": "adult",
-		"show": "wish",
+		"show": "Wish: El poder de los deseos",
 		"main_image": "queenamaya.jpg",
 		"alternative_images": ["queenamaya-2.jpg", "queenamaya-3.jpg", "queenamaya-4.jpg"],
 		"filters": ["marrones-eyes", "marrón-hair", "Película-media"]
@@ -714,7 +714,7 @@ const WAIFUS = [
 		"show": "Osora",
 		"main_image": "catalina.jpg",
 		"alternative_images": ["catalina-2.jpg", "catalina-3.jpg", "catalina-4.jpg","catalina-5.jpg"],
-		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
+		"filters": ["azules-eyes", "oscuro-hair", "Cómic-media"]
 	},
 ];
 
