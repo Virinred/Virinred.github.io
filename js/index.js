@@ -136,7 +136,7 @@ const WAIFUS = [
 		"age_text": "75, edad gigante",
 		"show": "One Piece",
 		"main_image": "gerd.jpg",
-		"alternative_images": ["gerd-2.jpg", "gerd-3.jpg"],
+		"alternative_images": ["gerd-2.jpg", "gerd-3.jpg", "gerd-4.jpg"],
 		"filters": ["azul-eyes", "rubio-hair", "One-Piece", "Serie-media", "Cómic-media"]
 	},
         {
@@ -527,12 +527,12 @@ const WAIFUS = [
 	},
        {
 		"id": 57,
-		"name": "Ripley (Provisional)",
+		"name": "Ripley",
         "age": "26",
                 "age_text": "80, edad gigante",
 		"show": "One Piece",
 		"main_image": "ripley.jpg",
-		"alternative_images": [],
+		"alternative_images": ["ripley-2.jpg", "ripley-3.jpg", "ripley-4.jpg", "ripley-5.jpg"],
 		"filters": ["Cómic-media", "One-Piece"]
 	},
       {
@@ -687,6 +687,34 @@ const WAIFUS = [
 		"main_image": "janai.jpg",
 		"alternative_images": ["janai-2.jpg", "janai-3.jpg", "janai-4.jpg", "janai-5.jpg"],
 		"filters": ["marrones-eyes", "pelirrojo-hair", "Serie-media"]
+	},
+	{
+		"id": 74,
+		"name": "Juana",
+                "age": "35",
+		"age_text": "centenaria",
+		"show": "Mythic Love: Iberian Legends",
+		"main_image": "juana.jpg",
+		"alternative_images": ["juana-2.jpg", "juana-3.jpg", "juana-4.jpg", "juana-5.jpg"],
+		"filters": ["verdes-eyes", "marrón-hair", "Videojuego-media"]
+	},
+	{
+		"id": 75,
+		"name": "Celia Calaveras",
+        "age": "19",
+		"show": "Osora",
+		"main_image": "celia.jpg",
+		"alternative_images": ["celia-2.jpg", "celia-3.jpg", "celia-4.jpg","celia-5.jpg"],
+		"filters": ["marrones-eyes", "marrón-hair", "Cómic-media"]
+	},
+	{
+		"id": 76,
+		"name": "Catalina Galino",
+        "age": "18",
+		"show": "Osora",
+		"main_image": "catalina.jpg",
+		"alternative_images": ["catalina-2.jpg", "catalina-3.jpg", "catalina-4.jpg","catalina-5.jpg"],
+		"filters": ["azul-eyes", "oscuro-hair", "Cómic-media"]
 	},
 ];
 
